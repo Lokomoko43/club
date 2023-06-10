@@ -1,0 +1,12 @@
+.slidedown{
+    position: fixed;
+    animation: slideDown 1s ease-out;
+}
+@keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+}

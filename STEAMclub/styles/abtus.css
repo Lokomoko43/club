@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: cursive;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: sandybrown;
+    display: flex;
+}
+.header-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.header-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#ulfrst{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#abtus{
+    border-color: rgba(0, 255, 255, 0.733);
+    background-color: rgba(0, 255, 255, 0.733);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    list-style-type: none;
+    border: 1px solid ;
+    padding: 5px 10px;
+    width: 150px;
+    text-align: center;
+}
+#cnt{
+    background-color: green;
+    color: white;
+    list-style-type: none;
+    border: 1px solid ;
+    padding: 5px 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+#sps{
+    border-color: red;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    list-style-type: none;
+    border: 1px solid ;
+    padding: 5px 10px;
+    width: 150px;
+    text-align: center;
+}
+#rgr{
+    border-color: rgba(255, 255, 0, 0.733);
+    background-color: rgba(255, 255, 0, 0.733);
+    color: white;
+    border-radius: 50px;
+    list-style-type: none;
+    border: 1px solid ;
+    padding: 5px 10px;
+    width: 150px;
+    text-align: center;
+}
+#pt{
+    border-color:purple;
+    background-color:purple;
+    color: white;
+    border-radius: 50px;
+    list-style-type: none;
+    border: 1px solid ;
+    padding: 5px 10px;
+    width: 150px;
+    text-align: center;
+}
+section{
+    padding: 30px;
+    font-size: x-large;
+    margin-bottom: 50px;
+}
+p{
+    margin-top: 20px
+}
+footer{
+    margin-top: 80px;
+    font-size: larger;
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerli{
+    margin-bottom: 5px;
+}

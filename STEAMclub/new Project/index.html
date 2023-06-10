@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Random Generator</title>
+</head>
+<body>
+
+    <div class="content">
+        <h4>Password Generator</h4>
+        <div class="generated">
+            <p id="result">EXAMPLE</p>
+        </div>
+
+        <div class="options">
+          
+            <label class="range" for="range">
+                <div class="description">
+                    <p>Character length</p>
+                    <p id="rangeInfo">10</p>
+                </div>
+                <input id="range" type="range" value="10" min="0" max="16" >
+            </label>
+
+            <div class="group">
+                <label for="uppercaseLetters">
+                    <input id="uppercaseLetters" type="checkbox">
+                    <p>Include Uppercase Letters</p>
+                </label>
+                <label for="lowercaseLetters">
+                    <input id="lowercaseLetters" type="checkbox">
+                    <p>Include Lowercase Letters</p>
+                </label>
+                <label for="numbers">
+                    <input id="numbers" type="checkbox">
+                    <p>Include Numbers</p>
+                </label>
+                <label for="symbols">
+                    <input id="symbols" type="checkbox">
+                    <p>Include Symbols</p>
+                </label>
+            </div>
+
+            <button id="generator">GENERATE</button>
+        </div>
+    </div>
+    
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: cursive;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: sandybrown;
+    display: flex;
+}
+.header-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.header-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#ulfrst{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#abtus{
+    border-color: rgba(0, 255, 255, 0.733);
+    background-color: rgba(0, 255, 255, 0.733);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    list-style-type: none;
+    border: 1px solid ;
+    padding: 5px 10px;
+    width: 150px;
+    text-align: center;
+}
+#cnt{
+    background-color: green;
+    color: white;
+    list-style-type: none;
+    border: 1px solid ;
+    padding: 5px 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+#sps{
+    border-color: red;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    list-style-type: none;
+    border: 1px solid ;
+    padding: 5px 10px;
+    width: 150px;
+    text-align: center;
+}
+#rgr{
+    border-color: rgba(255, 255, 0, 0.733);
+    background-color: rgba(255, 255, 0, 0.733);
+    color: white;
+    border-radius: 50px;
+    list-style-type: none;
+    border: 1px solid ;
+    padding: 5px 10px;
+    width: 150px;
+    text-align: center;
+}
+#pt{
+    border-color:purple;
+    background-color:purple;
+    color: white;
+    border-radius: 50px;
+    list-style-type: none;
+    border: 1px solid ;
+    padding: 5px 10px;
+    width: 150px;
+    text-align: center;
+}
+.firstsct{
+    background-image: url(../images/steam-club-anna-pollard-myfunscience.jpg);
+    width: 100%;
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+main{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.firstsct{
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: cursive;
+    font-weight: bolder;
+
+}
+#firsth1{
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+.firstsctP{
+    margin-left: 30px;
+    margin-bottom:50px;
+}
+
+
+.secondsct{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: x-large;
+}
+.firstqs ,#firstqsH , #firstqsul , #secondqsh{
+    margin-bottom: 20px;
+}
+
+.secondqs , #firstqsul , #secondqsul{
+    margin-top: 20px;
+}
+.secondqsli , .firstqsli{
+    margin-top: 10px;
+}
+.firstqsli{
+    list-style-image: url(../images/output-onlinepngtools.png);
+}
+.secondqsli{
+    list-style-image: url(../images/unccorect.png);
+}
+.secondqs{
+    margin-top: 40px;
+}
+footer{
+    margin-top: 80px;
+    font-size: larger;
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerli{
+    margin-bottom: 5px;
+}
+@media  screen and (max-width:1700px) {
+    .firstsct{
+        font-size: x-large;
+    }
+}
+@media  screen and (max-width:1290px) {
+    .firstsct{
+        font-size: large;
+    }
+}
